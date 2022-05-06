@@ -194,7 +194,7 @@ $(document).ready(function() {
       }
     });
   }
-
+//
   $('[data-task-add-form]').on('submit', handleTaskSubmitRequest);
 
   $tasksContainer.on('change','[data-board-name-select]', handleBoardNameSelect);
